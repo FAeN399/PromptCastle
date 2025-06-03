@@ -1,0 +1,18 @@
+# Python dependencies for Prompt Castle 3.0 (all version-pinned)
+# Web framework and server:
+fastapi==0.115.12 # FastAPI (Python web framework):contentReference[oaicite:0]{index=0}
+uvicorn==0.34.3 # Uvicorn ASGI server for FastAPI
+
+# CLI interface:
+typer==0.16.0 # Typer for building CLI commands
+
+# Database and ORM:
+sqlmodel==0.0.21 # SQLModel for ORM (combines SQLAlchemy & Pydantic)
+
+# LLM integration:
+langchain==0.3.25 # LangChain for advanced prompt/LLM workflows
+openai==1.83.0 # OpenAI Python SDK for API calls
+
+# Testing and linting:
+pytest==8.3.5 # PyTest for unit and integration tests
+ruff==0.11.12 # Ruff linter for code quality (PEP8, etc.) 
